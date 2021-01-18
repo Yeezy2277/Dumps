@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+    gap: 30px;
+}
+
+.block {
+    width: 833px;
+    height: 677px;
+    background: #E5E5E5;
+    border: 1px solid rgba(62, 66, 69, 0.3);
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.block h1 {
+    font-size: 20px;
+}
+
+.containerInfoBlocks {
+    margin-top: 23px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+}

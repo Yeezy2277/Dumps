@@ -1,0 +1,59 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+}
+
+.mainContainer hr {
+    width: 212px
+}
+
+.mainContainer h1 {
+    font-size: 20px;
+}
+
+.container {
+    width: 1800px;
+    height: 563px;
+    margin-top: 36px;
+    background: #E5E5E5;
+    border: 1px solid rgba(62, 66, 69, 0.3);
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.containerBlocks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:14px;
+    margin-top: 23px;
+    font-size: 14px;
+}
+
+.myLogisticBlockBtns {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+@media (max-width: 1600px) {
+    .container {
+        width: 1580px;
+    }
+
+    .container__item {
+        width: 205px;
+        height: 407px;
+    }
+
+    .buttons {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+}

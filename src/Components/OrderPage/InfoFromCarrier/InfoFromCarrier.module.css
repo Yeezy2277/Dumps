@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    justify-content: center;
+    gap:7px;
+}
+.block1, .block2 {
+    background: #FFFFFF;
+    border: 1px solid #3C4043;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.block1 {
+    width: 871px;
+    height: 38px;
+}
+
+.block2 {
+    width: 231px;
+    height: 38px;
+}
+
+@media (max-width: 1600px) {
+    .block1 {
+        width: 821px;
+    }
+}

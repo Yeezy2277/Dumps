@@ -1,0 +1,19 @@
+.support {
+    position: fixed;
+    width: 104px;
+    height: 75px;
+    left: 92%;
+    top: 90vh;
+    background: #FFBE73;
+    border-radius: 0px 20px 20px 20px;
+}
+
+.support a {
+    font-size: 11px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    font-weight: 700;
+    padding-top: 20px;
+}

@@ -1,0 +1,93 @@
+.carrierAccount {
+    display: flex;
+    justify-content: space-between;
+}
+
+.carrierFormInput {
+    padding-left: 25px;
+}
+
+.carrierFormInput a{
+    text-decoration: none;
+}
+
+.carrierAcccount__headerText {
+    display: flex;
+    font-weight: 500;
+    font-size: 27px;
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
+}
+
+.carrierAcccount__headerText__item {
+    width: 543px;
+    height: 71px;
+    background: linear-gradient(90.98deg, #E5E5E5 0%, rgba(229, 229, 229, 0.9) 100%);
+    border-radius: 5px;
+    padding: 19px 49px 20px 48px;
+}
+.dataCarrier, .carrierFormButtons {
+    width: 515px;
+    height: 476px;
+    text-align: center;
+    background: #E5E5E5;
+    border: 1px solid rgba(62, 66, 69, 0.3);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+
+.orderForm {
+    width: 515px;
+    height: 476px;
+    text-align: center;
+}
+
+hr {
+    width: 466px;
+}
+
+.dataCarrier input {
+    margin: 0 70px 0 0;
+}
+.carrierFormButtons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    gap: 27px;
+}
+
+.dataForms {
+    display: flex;
+    margin-top: 56px;
+    justify-content: center;
+    gap: 35px;
+}
+
+.dataForms input{
+    width: 462px;
+    height: 38px;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.9) 100%);
+    border: 1px solid #3C4043;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+
+.dataForms h1{
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+
+.dataForms p{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    margin: 15px 0 0;
+    position: relative;
+    left: 38px;
+}

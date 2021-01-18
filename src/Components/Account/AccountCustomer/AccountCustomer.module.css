@@ -1,0 +1,135 @@
+.carrierFormInput {
+    padding-left: 25px;
+}
+
+.carrierFormInput a{
+    text-decoration: none;
+}
+
+.dataForms_customer input {
+    width: 462px;
+    height: 38px;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.9) 100%);
+    border: 1px solid #3C4043;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.dataForms_customer {
+    display: flex;
+    margin-top: 36px;
+    justify-content: center;
+    gap: 17px;
+}
+
+.dataForms_customer h1{
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+
+.dataForms_customer p {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    margin: 15px 0 0;
+    position: relative;
+    left: 38px;
+}
+
+.carrierAccount__headerText {
+    display: flex;
+    font-weight: 500;
+    font-size: 27px;
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
+}
+.registeredData{
+    display: flex;
+    width: 515px;
+    height: 672px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.customerFormInput a {
+    position: relative;
+    left: 10%;
+}
+
+.registeredData, .registeredObjects {
+    background: #E5E5E5;
+    border: 1px solid rgba(62, 66, 69, 0.3);
+    box-sizing: border-box;
+}
+
+.registeredObjects {
+    width: 1000px;
+    height: 672px;
+}
+
+.registeredObjects__items {
+    display: flex;
+    margin-top: 24px;
+    align-items: center;
+    gap:11px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.objectAddress {
+    display: flex;
+    width: 260px;
+    height: 442px;
+    background: radial-gradient(100% 100% at 0% 0%, #323538 0%, rgba(50, 53, 56, 0.9) 100%);
+    border-radius: 15px;
+    font-weight: 700;
+    color:white;
+    padding-left: 30px;
+    align-items: center;
+}
+.dataForms_customer button {
+    border: none;
+    cursor: pointer;
+}
+.registeredObjects__btn {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.carrierAccount__headerText__item {
+    width: 543px;
+    height: 71px;
+    background: linear-gradient(90.98deg, #E5E5E5 0%, rgba(229, 229, 229, 0.9) 100%);
+    border-radius: 5px;
+    padding: 19px 49px 20px 48px;
+}
+.dataCarrier{
+    width: 515px;
+    height: 476px;
+    text-align: center;
+    background: #E5E5E5;
+    border: 1px solid rgba(62, 66, 69, 0.3);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.customerFormButtons {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap:27px;
+}
+
+.registeredObjects__btn {
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    width: 466px;
+}

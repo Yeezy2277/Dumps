@@ -1,0 +1,26 @@
+.linkPlusBlack, .linkPlusGray {
+    width: 78px;
+    height: 78px;
+    border-radius: 15px;
+}
+
+.linkPlusBlack {
+    background: radial-gradient(100% 100% at 0% 0%, #323538 0%, rgba(50, 53, 56, 0.9) 100%);
+}
+
+.linkPlusGray {
+    background: radial-gradient(100% 527.41% at 0% 0%, #C4C4C4 0%, rgba(196, 196, 196, 0.9) 100%);
+}
+
+
+.rect1 {
+    position: relative;
+    top:30%;
+    left: 20%;
+}
+
+.rect2 {
+    position: relative;
+    top:17%;
+    right: 3%;
+}

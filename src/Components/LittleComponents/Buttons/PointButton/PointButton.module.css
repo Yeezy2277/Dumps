@@ -1,0 +1,19 @@
+.linkPointBlack, .linkPointGray {
+    width: 78px;
+    height: 78px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.linkPointBlack {
+    background: radial-gradient(100% 100% at 0% 0%, #323538 0%, rgba(50, 53, 56, 0.9) 100%);
+}
+
+.linkPointGray {
+    background: radial-gradient(100% 527.41% at 0% 0%, #C4C4C4 0%, rgba(196, 196, 196, 0.9) 100%);
+}
+
+.linkPointBlack img , .linkPointGray img {
+    align-self: center
+}

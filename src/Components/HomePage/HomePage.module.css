@@ -1,0 +1,30 @@
+.registerBtns {
+    display: flex;
+    gap:67px;
+    justify-content: center;
+    position: relative;
+    top: 25vh;
+}
+
+.registerBtns hr {
+    margin: 0;
+    width: 0;
+    height: 156px;
+    position: relative;
+    bottom: 50px;
+}
+
+.registerBtns__btn a {
+    width: 382.65px;
+    height: 73.13px;
+    background: linear-gradient(92.09deg, #FFBE73 0%, rgba(255, 190, 115, 0.8) 100.08%);
+    border-radius: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #2E3235;
+    padding: 10px 30px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+}

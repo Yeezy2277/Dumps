@@ -1,0 +1,55 @@
+.linkAccount {
+    margin-top: 20px;
+    margin-right: 20px;
+    border: none;
+    width: 225px;
+    height: 59px;
+    background: linear-gradient(94.04deg, #216CFF 0%, rgba(33, 108, 255, 0.9) 101.73%);
+    backdrop-filter: blur(4px);
+    border-radius: 40px;
+}
+
+.linkAccount a {
+    text-decoration: none;
+    font-family: Cuprum;
+    font-size: 22px;
+    line-height: 59px;
+    text-align: center;
+    color:white;
+    display: flex;
+    justify-content: center;
+}
+
+.commonHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.specialLogo {
+    display: flex;
+}
+
+.logoDesc {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    padding: 23px;
+    width: 708px;
+    height: 58px;
+    background: #E5E5E5;
+    border-radius: 5px;
+    font-size: 23px;
+}
+
+@media (max-width: 1360px) {
+    .specialLogo {
+        flex-direction: column;
+    }
+
+    .logoDesc {
+        margin-left: 20px;
+    }
+}

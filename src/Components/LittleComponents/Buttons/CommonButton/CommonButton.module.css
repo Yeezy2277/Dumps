@@ -1,0 +1,63 @@
+.orangeBtns, .silverBtns, .yellowBtns, .redBtns {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.orangeBtns a {
+    background: radial-gradient(100% 100% at 0% 0%, #FFBE73 0%, rgba(255, 190, 115, 0.8) 100%);
+}
+
+
+.silverBtns a {
+    background: #C4C4C4;
+}
+
+.yellowBtns a {
+    color:#E6B173;
+    background: radial-gradient(100% 100% at 0% 0%, #323538 0%, rgba(50, 53, 56, 0.9) 100%);
+}
+
+.redBtns a{
+    color: #FF4343;
+    background: radial-gradient(100% 100% at 0% 0%, #323538 0%, rgba(50, 53, 56, 0.9) 100%);
+}
+
+#silverBtn, #orangeBtn {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+
+.orangeBtns a, .silverBtns a{
+    width: 395px;
+    height: 59px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #2E3235;
+    border-radius: 15px;
+    font-size: 22px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    gap: 15px;
+}
+
+.yellowBtns a, .redBtns a {
+    width: 300px;
+    height: 43px;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    gap: 15px;
+    border-radius: 10px;
+}

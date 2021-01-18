@@ -1,0 +1,162 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 36px;
+    gap: 30px;
+}
+
+.container h1 {
+    font-size: 20px;
+}
+
+.form1, .form2 {
+    display: flex;
+    justify-content: center;
+    width: 1695px;
+    background: #E5E5E5;
+    border: 1px solid rgba(62, 66, 69, 0.3);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.form1 {
+    height: 520px;
+}
+
+.form2 {
+    height: 185px;
+}
+
+.form1 p {
+    margin-left: 40px;
+}
+
+.form1__item input, .form2__item input{
+    width: 466px;
+    height: 38px;
+    border: 1px solid #43474A;
+    box-sizing: border-box;
+    border-radius: 5px
+}
+
+.form1__item p {
+    font-size: 16px;
+    text-align: left;
+}
+
+
+.orderForm {
+    width: 515px;
+    height: 476px;
+    text-align: center;
+}
+
+.locButton {
+    display: flex;
+    background: radial-gradient(100% 100% at 0% 0%, #424649 0%, #45494C 100%);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    width: 241px;
+    height: 38px;
+    color: #E9AF6D;
+    font-size: 20px;
+    justify-content: center;
+    gap: 5px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 30%;
+}
+
+.locButton img {
+    align-self: center;
+}
+
+.locButton h3 {
+    position: relative;
+    bottom: 20px;
+}
+
+.form2 {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.form2Input {
+    display: flex;
+    gap: 45px;
+}
+
+.form2Input__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.acceptOrder {
+    display: flex;
+    flex-direction: column;
+}
+
+.confirmVector {
+    margin-top: 24px;
+    align-items: center;
+    display: flex;
+}
+
+.confirmVector label {
+    padding-right: .5em;
+    white-space: nowrap;
+}
+
+.confirmVector input {
+    flex-grow: 1;
+    width: 100%;
+}
+
+label {
+    font-size: 18px;
+    position: relative;
+}
+
+.confirmCheckbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.confirmCheckbox+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+.confirmCheckbox+label::before {
+    content: '';
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #5E6164;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin-right: 0.5em;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.9) 100%) no-repeat center center;
+    background-size: 50% 50%;
+}
+
+.confirmCheckbox:checked+label::before {
+    background-image: url("https://i.imgur.com/ArzQt10.png");
+}
+
+.confirmBtn {
+    margin-top: 30px;
+}
+
+@media (max-width: 1600px) {
+    .form1, .form2 {
+        width: 1580px;
+    }
+}

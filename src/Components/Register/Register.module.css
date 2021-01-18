@@ -1,0 +1,148 @@
+.registerHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.alert {
+    width: 80%;
+    height: 200px;
+    text-align: center;
+    text-transform: uppercase;
+    background: #E5E5E5;
+    border-radius: 5px;
+    font-size: 29px;
+    margin-top: 39px;
+}
+
+.alert p {
+    font-size: 23px;
+}
+
+.alertContainer {
+    display: flex;
+    justify-content: center;
+}
+.formInputContainer {
+    display: flex;
+    justify-content: center;
+    gap: 31px;
+}
+.registerForm {
+    font-size: 29px;
+    position: relative;
+    top:39px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formText {
+    display: flex;
+    text-align: right;
+    text-transform: uppercase;
+    flex-direction: column;
+}
+
+
+.formInput {
+    display:flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.formInput input, select {
+    margin-top: 22px;
+}
+
+.registerForm button {
+    cursor: pointer;
+}
+
+.registerVector {
+    display: flex;
+    justify-content: center;
+}
+
+.registerVector p {
+    position: relative;
+    left: 10%;
+    top: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.registerVector__circle{
+    width: 28px;
+    height: 28px;
+    background: linear-gradient(180deg, #3C4043 0%, rgba(60, 64, 67, 0.9) 100%);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    left: 7%;
+}
+
+.radioContainer {
+    display: flex;
+    gap:107px;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.registerVector__circle img {
+    align-self: center;
+}
+
+/* для элемента input c type="radio" */
+.customRadio>input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+/* для элемента label связанного с .custom-radio */
+.customRadio>span {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+
+/* создание в label псевдоэлемента  before со следующими стилями */
+.customRadio>span::before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #adb5bd;
+    border-radius: 50%;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+}
+
+
+/* стили для активной радиокнопки (при нажатии на неё) */
+.customRadio>input:not(:disabled):active+span::before {
+    background-color: white;
+    border:1px solid #474B4E;
+}
+
+/* стили для радиокнопки, находящейся в состоянии checked */
+.customRadio>input:checked+span::before {
+    background-image: url("https://i.imgur.com/Xrdigpd.png");
+}
+.registerBtn {
+    font-weight: 700;
+    width: 327px;
+    height: 50px;
+    background: #FFBE73;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    margin-top: 42px;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 23px;
+}
